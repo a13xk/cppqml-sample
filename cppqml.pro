@@ -21,7 +21,7 @@ OTHER_FILES += qml/cppqml.qml \
     qml/pages/FirstPage.qml \
     rpm/cppqml.changes.in \
     rpm/cppqml.spec \
-    rpm/cppqml.yaml \
+    rpm/*.patch
     cppqml.desktop
 
 HEADERS += \

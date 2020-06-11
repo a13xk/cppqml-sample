@@ -1,0 +1,1 @@
+Sample project to test `sfdk apply` command. C++ code is intentionally broken and will not compile until patch is applied.

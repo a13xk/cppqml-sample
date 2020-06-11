@@ -43,15 +43,15 @@ QHash<int, QByteArray> DemoModel::roleNames() const {
 }
 
 
-QVariant DemoModel::data(const QModelIndex &index, int role) const {
-    if(!index.isValid()) {
-        return QVariant();
-    }
-    if(role == NameRole) {
-        return QVariant(backing[index.row()]);
-    }
-    return QVariant();
-}
+//QVariant DemoModel::data(const QModelIndex &index, int role) const {
+//    if(!index.isValid()) {
+//        return QVariant();
+//    }
+//    if(role == NameRole) {
+//        return QVariant(backing[index.row()]);
+//    }
+//    return QVariant();
+//}
 
 void DemoModel::activate(const int i) {
     if(i < 0 || i >= backing.size()) {
